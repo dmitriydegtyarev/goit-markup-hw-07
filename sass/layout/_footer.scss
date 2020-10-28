@@ -1,0 +1,26 @@
+.footer {
+  background-color: $secondary-background-color;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+
+  .link {
+    @include font(400, 14px, 24px);
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .link.map {
+    color: $third-text-color;
+  }
+}

@@ -392,4 +392,59 @@ img {
   height: 20px;
   fill: currentColor;
 }
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-clients {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: #afb1b8;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-clients:hover, .link-clients:focus {
+  border-color: #2196f3;
+  color: #2196f3;
+}
+
+.client-svg {
+  fill: currentColor;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.footer .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer .link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71429;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .link.map {
+  color: var(--the-third-text-color);
+}
 /*# sourceMappingURL=main.css.map */
