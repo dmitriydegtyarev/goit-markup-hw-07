@@ -195,23 +195,6 @@
 /* ===== END MODAL WINDOW ===== */
 
 /* ===== COMPONENTS ===== */
-.logo {
-  font-family: var(--secondary-font);
-  font-style: normal;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #2196f3;
-  text-decoration: none;
-}
-
-.logo-footer {
-  color: var(--the-third-text-color);
-}
-
-.header-logo {
-  color: #000000;
-}
 
 .button {
   display: block;
