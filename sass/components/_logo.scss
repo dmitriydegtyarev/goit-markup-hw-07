@@ -1,17 +1,14 @@
 .logo {
-  font-family: var(--secondary-font);
-  font-style: normal;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  font-family: $secondary-font;
+  @include font(700, 26px, 31px);
   color: #2196f3;
   text-decoration: none;
-}
 
-.logo-footer {
-  color: var(--the-third-text-color);
-}
+  &-header {
+    color: #000000;
+  }
 
-.logo-header {
-  color: #000000;
+  &-footer {
+    color: $third-text-color;
+  }
 }
