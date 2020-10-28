@@ -85,9 +85,7 @@ img {
 }
 
 .header {
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #ececec;
+  border-bottom: 1px solid #ececec;
   background-color: #ffffff;
 }
 
@@ -98,10 +96,10 @@ img {
 }
 
 .header .logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
-  display: flex;
-  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-right: 93px;
 }
 
