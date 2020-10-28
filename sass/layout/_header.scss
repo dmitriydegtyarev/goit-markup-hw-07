@@ -25,20 +25,23 @@
   .link {
     display: block;
     padding-top: 32px;
-
     color: $primary-text-color;
     @include font(500, 14px, 16px);
     letter-spacing: 0.02em;
     transition: color 250ms $main-animation;
 
+    &.current {
+      color: $accent-color;
+    }
+
+    &.not-current {
+      padding-bottom: 32px;
+    }
+
     &:hover,
     &:focus {
       color: $accent-color;
     }
-  }
-
-  .link.current {
-    color: $accent-color;
   }
 }
 
